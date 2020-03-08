@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="asm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/代理模式/Cglib代理/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/代理模式/Cglib代理/asm-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/代理模式/Cglib代理/asm-tree.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/代理模式/Cglib代理/cglib-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
