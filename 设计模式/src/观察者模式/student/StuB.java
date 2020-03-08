@@ -1,13 +1,18 @@
-package 访问者模式;
+package 观察者模式.student;
 
 public class StuB implements Student {
-    private String name = "学生乙";
+    private String name;
 
     public StuB() {
     }
 
     public StuB(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String getName() {
+        return name;
     }
 
     @Override
