@@ -1,10 +1,11 @@
 package 中介者模式.smarthouse;
 
-import 中介者模式.smarthouse.被控制的机器.*;
+import 中介者模式.smarthouse.被控制的机器.AMachine;
+import 中介者模式.smarthouse.被控制的机器.BMachine;
+import 中介者模式.smarthouse.被控制的机器.CMachine;
+import 中介者模式.smarthouse.被控制的机器.Colleague;
 
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
 
 // 具体的中介者
 public class ConcreteMediator extends Mediator {
