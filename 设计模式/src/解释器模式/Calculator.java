@@ -23,7 +23,7 @@ public class Calculator {
                 case '+':
                     left = stack.pop();// 从stack取出left => "a"
                     right = new VarExpression(String.valueOf(charArray[++i]));  // 取出右表达式
-                    stack.push(new AddExpression(left, right));// 根据得到的左和右构建加表达式加入栈
+                    stack.push(new AddExpression(left, right)); // 根据得到的左和右构建加表达式加入栈
                     break;
                 case '-':
                     left = stack.pop();
