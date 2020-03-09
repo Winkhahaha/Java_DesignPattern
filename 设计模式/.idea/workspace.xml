@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e12fb56-c9fd-491c-be23-6337bfe65c67" name="Default Changelist" comment="解释器模式">
+    <list default="true" id="2e12fb56-c9fd-491c-be23-6337bfe65c67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/解释器模式/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/解释器模式/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/中介者模式/smarthouse/ConcreteMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/设计模式/中介者模式/smarthouse/ConcreteMediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/设计模式/单例模式/懒汉式线程安全/LazySingleton02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/设计模式/单例模式/懒汉式线程安全/LazySingleton02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/策略模式/improve/BadFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/策略模式/improve/BadFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/策略模式/improve/GoodFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/策略模式/improve/GoodFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/策略模式/improve/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/策略模式/improve/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +72,7 @@
           <entry key="SchoolManager" value="2" />
           <entry key="SimpleHandlerAdapter" value="1" />
           <entry key="class" value="6" />
-          <entry key="java" value="661" />
+          <entry key="java" value="683" />
           <entry key="puml" value="2" />
           <entry key="txt" value="2" />
         </counts>
@@ -76,7 +80,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="661" />
+          <entry key="JAVA" value="683" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="PlantUML file" value="2" />
           <entry key="UML" value="3" />
@@ -85,15 +89,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="java" value="15638" />
+          <entry key="java" value="16365" />
           <entry key="puml" value="58" />
-          <entry key="txt" value="68" />
+          <entry key="txt" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15638" />
-          <entry key="PLAIN_TEXT" value="84" />
+          <entry key="JAVA" value="16365" />
+          <entry key="PLAIN_TEXT" value="92" />
           <entry key="PlantUML file" value="58" />
         </counts>
       </usages-collector>
@@ -102,89 +106,83 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/策略模式/improve/duck/Duck.java">
+        <entry file="file://$PROJECT_DIR$/src/职责链模式/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="192">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/策略模式/improve/duck/WildDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/Approver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/策略模式/improve/FlyBehavior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/策略模式/improve/GoodFly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="-24">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/策略模式/improve/BadFly.java">
+        <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/AApprover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="264">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
               <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/策略模式/improve/duck/YellowDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/BApprover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="216">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/CApprover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/DApprover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="16" column="55" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="16" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/策略模式/improve/duck/ToyDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/职责链模式/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="72">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/单例模式/懒汉式线程安全/LazySingleton02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -209,15 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/被控制的机器/Colleague.java" />
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/Mediator.java" />
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/被控制的机器/Alarm.java" />
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/被控制的机器/CoffeeMachine.java" />
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/被控制的机器/TV.java" />
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/Test.java" />
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/被控制的机器/sdfbg.java" />
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/被控制的机器/BMachine.java" />
-        <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/ConcreteMediator.java" />
         <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/被控制的机器/CMachine.java" />
         <option value="$PROJECT_DIR$/src/中介者模式/smarthouse/被控制的机器/AMachine.java" />
         <option value="$PROJECT_DIR$/src/备忘录模式/Memento.java" />
@@ -252,14 +241,23 @@
         <option value="$PROJECT_DIR$/src/策略模式/WildDuck.java" />
         <option value="$PROJECT_DIR$/src/策略模式/YellowDuck.java" />
         <option value="$PROJECT_DIR$/src/策略模式/ToyDuck.java" />
-        <option value="$PROJECT_DIR$/src/策略模式/improve/BadFly.java" />
         <option value="$PROJECT_DIR$/src/策略模式/improve/FlyBehavior.java" />
-        <option value="$PROJECT_DIR$/src/策略模式/improve/GoodFly.java" />
         <option value="$PROJECT_DIR$/src/策略模式/improve/duck/WildDuck.java" />
-        <option value="$PROJECT_DIR$/src/策略模式/improve/duck/Duck.java" />
         <option value="$PROJECT_DIR$/src/策略模式/improve/duck/YellowDuck.java" />
         <option value="$PROJECT_DIR$/src/策略模式/improve/duck/ToyDuck.java" />
+        <option value="$PROJECT_DIR$/src/单例模式/懒汉式线程安全/LazySingleton02.java" />
         <option value="$PROJECT_DIR$/src/策略模式/improve/test.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/improve/BadFly.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/improve/GoodFly.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/improve/duck/Duck.java" />
+        <option value="$PROJECT_DIR$/src/职责链模式/Approver.java" />
+        <option value="$PROJECT_DIR$/src/职责链模式/审批人/Approver.java" />
+        <option value="$PROJECT_DIR$/src/职责链模式/Request.java" />
+        <option value="$PROJECT_DIR$/src/职责链模式/审批人/DApprover.java" />
+        <option value="$PROJECT_DIR$/src/职责链模式/审批人/CApprover.java" />
+        <option value="$PROJECT_DIR$/src/职责链模式/审批人/BApprover.java" />
+        <option value="$PROJECT_DIR$/src/职责链模式/审批人/AApprover.java" />
+        <option value="$PROJECT_DIR$/src/职责链模式/Test.java" />
       </list>
     </option>
   </component>
@@ -413,35 +411,7 @@
               <item name="设计模式" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="设计模式" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="单例模式" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="设计模式" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="设计模式" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="单例模式" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="懒汉式线程安全" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="设计模式" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="设计模式" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="策略模式" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="设计模式" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="设计模式" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="策略模式" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="improve" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="设计模式" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="设计模式" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="策略模式" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="improve" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="duck" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="职责链模式" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -454,7 +424,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583745111230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583748835226" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="D:/学习视频/尚硅谷-韩顺平java设计模式笔记/源码笔记课件/资料/experss" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -473,11 +443,11 @@
       <recent name="E:\代码仓库\Java_DesignPattern\设计模式\src\代理模式\Cglib代理" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="职责链模式.审批人" />
       <recent name="迭代器模式" />
       <recent name="命令模式" />
       <recent name="模板方法模式" />
       <recent name="代理模式.动态JDK代理" />
-      <recent name="外观模式" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="备忘录模式" />
@@ -496,7 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LazySingleton02">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="状态模式.ClientTest" />
       <module name="设计模式" />
@@ -523,12 +493,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="备忘录模式.Test" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="职责链模式.Test" />
       <module name="设计模式" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="备忘录模式.*" />
+          <option name="PATTERN" value="职责链模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -536,12 +506,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="备忘录模式.游戏角色备份.Test" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="备忘录模式.Test" />
       <module name="设计模式" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="备忘录模式.游戏角色备份.*" />
+          <option name="PATTERN" value="备忘录模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -577,18 +547,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test (4)" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.ClientTest" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.LazySingleton02" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LazySingleton02" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.LazySingleton02" />
         <item itemvalue="Application.ClientTest" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -624,7 +594,7 @@
       <workItem from="1583548644263" duration="14655000" />
       <workItem from="1583643549185" duration="17200000" />
       <workItem from="1583724399806" duration="632000" />
-      <workItem from="1583731756366" duration="8677000" />
+      <workItem from="1583731756366" duration="12516000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式">
       <created>1582988470294</created>
@@ -668,17 +638,31 @@
       <option name="project" value="LOCAL" />
       <updated>1583668436716</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="设计模式">
+      <created>1583745159441</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583745159441</updated>
+    </task>
+    <task id="LOCAL-00008" summary="设计模式">
+      <created>1583745912669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583745912669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147568000" />
+    <option name="totallyTimeSpent" value="151407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16085792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16085792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -687,7 +671,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2070922" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3531915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31914893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -695,7 +679,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -721,36 +705,10 @@
     <MESSAGE value="工厂模式" />
     <MESSAGE value="观察者模式" />
     <MESSAGE value="解释器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="解释器模式" />
+    <MESSAGE value="设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/springmvc/DispatchServlet.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/springmvc/HandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/对象适配器/Phone.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/对象适配器/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/对象适配器/Voltage220V.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/对象适配器/Voltage5V.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/对象适配器/VoltageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/接口适配器/exp/A.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/适配器模式/接口适配器/exp/InterA.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/适配器模式/接口适配器/exp/Test.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -963,35 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/策略模式/improve/FlyBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/策略模式/improve/GoodFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/策略模式/improve/BadFly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/策略模式/improve/duck/WildDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1006,24 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/策略模式/improve/duck/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/单例模式/懒汉式线程安全/LazySingleton02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1031,23 +942,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/单例模式/懒汉式线程安全/LazySingleton02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="239" column="39" selection-start-line="239" selection-start-column="39" selection-end-line="239" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="1463" column="49" selection-start-line="1463" selection-start-column="49" selection-end-line="1463" selection-end-column="49" />
+          <folding>
+            <element signature="e#56168#56169#0" expanded="true" />
+            <element signature="e#56232#56233#0" expanded="true" />
+            <element signature="e#56810#56811#0" expanded="true" />
+            <element signature="e#56866#56867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/improve/BadFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/improve/GoodFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/improve/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/策略模式/improve/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="408">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/improve/duck/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="method#Duck#0;class#Duck#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/策略模式/improve/duck/ToyDuck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/Approver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/职责链模式/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/CApprover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/BApprover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/AApprover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/职责链模式/审批人/DApprover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/职责链模式/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
