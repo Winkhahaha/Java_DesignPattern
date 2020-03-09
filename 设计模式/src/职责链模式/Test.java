@@ -18,6 +18,7 @@ public class Test {
         aApprover.setApprover(bApprover);
         bApprover.setApprover(cApprover);
         cApprover.setApprover(dApprover);
+        dApprover.setApprover(null);
         // 尝试从A开始处理请求
         aApprover.processRequest(request);
 
