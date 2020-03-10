@@ -21,7 +21,7 @@ public class ObjectStructure {
         people.remove(person);
     }
 
-    // 显示测评情况
+    // 显示测评情况:将某个行为传递给集合中的所有person
     public void display(AbstractAction action) {
         for (AbstractPerson person : people) {
             person.accept(action);
