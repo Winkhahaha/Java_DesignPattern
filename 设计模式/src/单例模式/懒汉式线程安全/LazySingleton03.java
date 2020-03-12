@@ -9,7 +9,6 @@ public class LazySingleton03 {
         new Thread(() -> {
             System.out.println(lazySafe2.getInstance());
         }).start();
-
     }
 }
 

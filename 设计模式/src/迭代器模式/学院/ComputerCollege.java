@@ -1,4 +1,7 @@
-package 迭代器模式;
+package 迭代器模式.学院;
+
+import 迭代器模式.ComputerCollegeIterator;
+import 迭代器模式.学院.专业.Department;
 
 import java.util.Iterator;
 

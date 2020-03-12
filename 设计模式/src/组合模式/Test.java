@@ -1,7 +1,5 @@
 package 组合模式;
 
-import java.util.ArrayList;
-
 public class Test {
     public static void main(String args[]) {
         // 从大到小,创建对象
@@ -15,7 +13,7 @@ public class Test {
         college.add(new Department("软件工程", "搞软件的"));
         college.add(new Department("网络工程", "装宽带"));
         university.print();
-        System.out.println("只看学院:");
+        System.out.println("从学院级别遍历:");
         college.print();
     }
 }

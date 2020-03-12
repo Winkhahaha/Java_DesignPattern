@@ -6,10 +6,10 @@ package 状态模式;
 public class ClientTest {
 
     public static void main(String[] args) {
-        // 创建活动
+        // 创建活动,奖品数量为1
         RaffleActivity activity = new RaffleActivity(1);
 
-        // 连续抽奖30次
+        // 连续抽奖10次
         for (int i = 0; i < 10; i++) {
             System.out.println("--------第" + (i + 1) + "次抽奖----------");
             // 参加抽奖,第一步扣除奖券

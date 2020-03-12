@@ -9,10 +9,10 @@ public class EnumSingleton01 {
         // 多线程测试
         System.out.println("多线程测试:");
         new Thread(() -> {
-            System.out.println(EnumSingleton.INSTANCE.hashCode());
+            System.out.println("hashCode: " + EnumSingleton.INSTANCE.hashCode());
         }).start();
         new Thread(() -> {
-            System.out.println(EnumSingleton.INSTANCE.hashCode());
+            System.out.println("hashCode: " + EnumSingleton.INSTANCE.hashCode());
         }).start();
     }
 }

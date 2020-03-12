@@ -30,6 +30,7 @@ public abstract class Soya {
     }
 
     // 钩子方法:决定是否添加配料
+    // 若不需要加配料,在子类中重写该方法,返回false即可
     boolean isAdd() {
         return true;    // 默认加配料
     }

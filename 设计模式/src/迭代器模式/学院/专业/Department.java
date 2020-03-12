@@ -1,4 +1,4 @@
-package 迭代器模式;
+package 迭代器模式.学院.专业;
 
 // 系
 public class Department {

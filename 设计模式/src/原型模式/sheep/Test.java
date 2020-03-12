@@ -1,13 +1,9 @@
 package 原型模式.sheep;
 
-import 工厂模式.简单工厂模式.pizza.Pizza;
-
 public class Test {
     public static void main(String args[]) throws CloneNotSupportedException {
         Sheep sheep = new Sheep("肖恩", "白色");
         sheep.friend = new Sheep("托卡藕丝", "黑色");
-        String s ="";
-        int a = 1;
         // 传统方法
 //      Sheep sheep1 = new Sheep(sheep.getName(), sheep.getColor());
 //      Sheep sheep2 = new Sheep(sheep.getName(), sheep.getColor());

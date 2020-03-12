@@ -1,6 +1,6 @@
 package 原型模式.sheep;
 
-public class Sheep implements Cloneable{
+public class Sheep implements Cloneable {
     private String name;
     private String color;
     public Sheep friend; // 成员变量是对象,克隆如何处理

@@ -1,7 +1,7 @@
 package 状态模式;
 
 /**
- * �齱� //
+ * 抽奖活动
  *
  * @author Administrator
  */

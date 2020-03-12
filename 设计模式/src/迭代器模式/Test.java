@@ -1,5 +1,9 @@
 package 迭代器模式;
 
+import 迭代器模式.学院.College;
+import 迭代器模式.学院.ComputerCollege;
+import 迭代器模式.学院.InfoCollege;
+
 import java.util.ArrayList;
 
 public class Test {

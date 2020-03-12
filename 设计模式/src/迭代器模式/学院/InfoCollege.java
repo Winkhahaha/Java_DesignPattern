@@ -1,4 +1,7 @@
-package 迭代器模式;
+package 迭代器模式.学院;
+
+import 迭代器模式.学院.专业.Department;
+import 迭代器模式.InfoCollegeIterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

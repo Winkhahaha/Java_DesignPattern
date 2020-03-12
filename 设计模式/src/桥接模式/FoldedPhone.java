@@ -8,7 +8,7 @@ public class FoldedPhone extends Phone {
 
     @Override
     protected void call() {
+        System.out.print("折叠样式-->");
         super.call();
-        System.out.println("折叠样式");
     }
 }

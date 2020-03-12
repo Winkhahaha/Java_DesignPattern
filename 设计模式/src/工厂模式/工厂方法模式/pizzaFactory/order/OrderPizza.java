@@ -8,8 +8,6 @@ import java.io.InputStreamReader;
 
 abstract class OrderPizza {
 
-
-
     // 定义一个抽象方法,让各个工厂自己实现
     abstract Pizza createPizza(String orderType);
 

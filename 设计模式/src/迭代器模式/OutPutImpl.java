@@ -1,6 +1,8 @@
 package 迭代器模式;
 
-import java.util.ArrayList;
+import 迭代器模式.学院.College;
+import 迭代器模式.学院.专业.Department;
+
 import java.util.Iterator;
 import java.util.List;
 

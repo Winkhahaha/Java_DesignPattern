@@ -3,7 +3,7 @@ package 解释器模式;
 import java.util.HashMap;
 
 /**
- * 抽运算符号解析器,每个运算符号都只和自己左右两边数字有关系
+ * 运算符号解析器,每个运算符号都只和自己左右两边数字有关系
  * 
  * @author Administrator
  *

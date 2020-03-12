@@ -4,10 +4,10 @@ public class LazySingleton02 {
     public static void main(String args[]) {
         System.out.println("懒汉式线程安全:");
         new Thread(() -> {
-            System.out.println(Thread.currentThread().getName()+":"+LazySafe.getInstance());
+            System.out.println(Thread.currentThread().getName() + ":" + LazySafe.getInstance());
         }).start();
         new Thread(() -> {
-            System.out.println(Thread.currentThread().getName()+":"+LazySafe.getInstance());
+            System.out.println(Thread.currentThread().getName() + ":" + LazySafe.getInstance());
         }).start();
 
     }

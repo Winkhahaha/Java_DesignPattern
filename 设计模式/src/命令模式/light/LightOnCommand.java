@@ -1,7 +1,5 @@
 package 命令模式.light;
 
-import 命令模式.Command;
-
 // 电灯打开按钮
 public class LightOnCommand implements Command {
 

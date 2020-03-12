@@ -6,9 +6,11 @@ public class Test {
     public static void main(String args[]) throws CloneNotSupportedException, IOException {
         DeepSheepFriend deepSheepFriend = new DeepSheepFriend();
         deepSheepFriend.name = "肖恩";
-        deepSheepFriend.deepSheep = new DeepSheep("托马斯","白色");
+        deepSheepFriend.deepSheep = new DeepSheep("托马斯", "白色");
         System.out.println(deepSheepFriend);
+
         // deepCopy01(deepSheepFriend);
+
         System.out.println("深拷贝方式二:");
         DeepSheepFriend deepSheepFriend2 = (DeepSheepFriend) deepSheepFriend.deepCloneBySerializable();
         System.out.println(deepSheepFriend2);

@@ -1,5 +1,7 @@
 package 迭代器模式;
 
+import 迭代器模式.学院.专业.Department;
+
 import java.util.Iterator;
 
 public class ComputerCollegeIterator implements Iterator {

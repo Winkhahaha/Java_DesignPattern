@@ -1,4 +1,4 @@
-package 命令模式;
+package 命令模式.light;
 
 public interface Command {
     // 提交命令

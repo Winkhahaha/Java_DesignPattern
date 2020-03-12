@@ -1,7 +1,5 @@
 package 命令模式.light;
 
-import 命令模式.Command;
-
 public class LightOffCommand implements Command {
 
     LightReceiver lightReceiver;

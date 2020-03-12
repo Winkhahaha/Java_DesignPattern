@@ -1,5 +1,8 @@
 package 命令模式;
 
+import 命令模式.light.Command;
+import 命令模式.light.NoCommand;
+
 public class RemoteController {
     // 开,关按钮的数组
     Command[] on;
@@ -7,6 +10,7 @@ public class RemoteController {
 
     // 执行撤销的命令
     Command undoCommand;
+
     public RemoteController(){
         on = new Command[5];
         off = new Command[5];
